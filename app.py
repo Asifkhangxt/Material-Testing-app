@@ -1,6 +1,17 @@
 # Material-Testing-app
 
-import streamlit as stimport pandas as pdimport numpy as npimport matplotlib.pyplot as pltfrom reportlab.lib import colorsfrom reportlab.lib.pagesizes import letterfrom reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, Imagefrom reportlab.lib.styles import getSampleStyleSheet, ParagraphStylefrom reportlab.lib.units import inchfrom reportlab.lib.enums import TA_CENTERfrom datetime import datetimeimport ioimport os
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from reportlab.lib import colors
+from reportlab.lib.pagesizes 
+import letterfrom reportlab.platypus 
+import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, Imagefrom reportlab.lib.styles 
+import getSampleStyleSheet, ParagraphStylefrom reportlab.lib.units
+import inchfrom reportlab.lib.enums 
+import TA_CENTERfrom datetime 
+import datetimeimport ioimport os
 Page configuration
 st.set_page_config(    page_title="MatTest Pro",    page_icon="🧱",    layout="wide",    initial_sidebar_state="expanded")
 Custom CSS
